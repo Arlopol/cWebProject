@@ -11,6 +11,7 @@
     margin-top: 10%;
  display: flex;
  justify-content: center;
+ flex-wrap: wrap;
 }
 
 .contact-section .contact-left{
@@ -80,3 +81,17 @@
 
 
   
+  @media screen and (max-width: 1320px) {
+
+
+    
+.contact-section .contact-right {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px, auto));
+    align-content: center;
+    gap: 40px;
+    width: 100%;
+}
+  }
