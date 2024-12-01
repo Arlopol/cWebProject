@@ -6,6 +6,9 @@
     <title>Cooking - Contact</title>
     <link rel="stylesheet" href="assets/css/homepageStyle.css" />
     <link rel="stylesheet" href="assets/css/contactStyle.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
   </head>
 
   <header>
@@ -13,7 +16,7 @@
       <h1><img src="assets/img/Foodieland..png" alt="" /></h1>
 
       <div class="navigate">
-        <a href="">Home</a>
+        <a href="index.html">Home</a>
         <a href="">Recipes</a>
         <a href="">Blog</a>
         <a href="">Contact</a>
@@ -46,34 +49,32 @@
           <div class="contact-title">
             <h2>Contact Us</h2>
           </div>
-        <div class="contact-input">
-          <h3>NAME</h3>
-          <input type="text" placeholder="Enter your name..." />
-        </div>
-
-        <div class="contact-input">
-          <h3>EMAIL ADDRESS</h3>
-          <input type="email" placeholder="Your email address..." />
-        </div>
-
-        <div class="contact-input">
-          <h3>SUBJECT</h3>
-          <input type="text" placeholder="Enter subject..." />
-        </div>
-
-        <div class="contact-input">
-          <h3>ENQUIRY TYPE</h3>
-
-          <label for="Enquiry"></label>
-          <select name="Enqu" id=""  >
-          </select>
+          <div class="contact-input">
+            <label for="name">NAME</label>
+            <input type="text" id="name" placeholder="Enter your name..." />
+          </div>
           
-        </div>
-
-        <div class="contact-text">
-          <h3>MESSAGES</h3>
-          <textarea name="" placeholder="Enter your message..."></textarea>
-        </div>
+          <div class="contact-input">
+            <label for="email">EMAIL ADDRESS</label>
+            <input type="email" id="email" placeholder="Your email address..." />
+          </div>
+          
+          <div class="contact-input">
+            <label for="subject">SUBJECT</label>
+            <input name="Subject" id="subject" type="text" placeholder="Enter subject..." />
+          </div>
+          
+          <div class="contact-input">
+            <label for="enquiry">ENQUIRY</label>
+            <select name="Enquiry" id="enquiry">
+            </select>
+          </div>
+          
+          <div class="contact-text">
+            <label for="message">MESSAGES</label>
+            <textarea id="message" placeholder="Enter your message..."></textarea>
+          </div>
+          
         
         <button type="submit" class="submit-button">Submit</button>
       </div>
@@ -92,6 +93,70 @@
           </div>
        
       </div>
+
+
+      <div class="Quick-Recipes">
+
+
+        <div class="Recipe-Title">
+          <h2>You may like these recipe too </h2>
+         
+        </div>
+        <div class="recipe-grid">
+  
+          <div class="recipe">
+            <img src="assets/img/mixedbowl.png" alt="">
+            <h3>Big and Juicy Wagyu Beef Cheeseburger</h3>
+            <div class="inside-info">
+              <img src="assets/img/Timer.png" alt="" />
+              30 minutes
+              <img src="assets/img/ForkKnife.png" alt="" />
+              Burger
+            </div>
+  
+          </div>
+          <div class="recipe">
+            <img src="assets/img/eggrice.png" alt="">
+            <h3>Fresh Lime Roasted Salmon with Ginger Sauce</h3>
+            <div class="inside-info">
+              <img src="assets/img/Timer.png" alt="" />
+              30 minutes
+              <img src="assets/img/ForkKnife.png" alt="" />
+              Salmon
+            </div>
+  
+          </div>
+          <div class="recipe">
+            <img src="assets/img/chickensalad.png" alt="">
+            <h3>Strawberry Oatmeal Pancake with Honey Syrup</h3>
+            <div class="inside-info">
+              <img src="assets/img/Timer.png" alt="" />
+              30 minutes
+              <img src="assets/img/ForkKnife.png" alt="" />
+              Pancakes
+            </div>
+  
+          </div>
+          <div class="recipe">
+            <img src="assets/img/toast.png" alt="">
+            <h3>Fresh and Healthy Mixed Mayonnaise Salad</h3>
+            <div class="inside-info">
+              <img src="assets/img/Timer.png" alt="" />
+              30 minutes
+              <img src="assets/img/ForkKnife.png" alt="" />
+              Chicken
+            </div>
+  
+          </div>
+          
+  
+  
+          </div>
+        </div>
+      </div>
+  
+
+      
   </body>
 
   <footer>
