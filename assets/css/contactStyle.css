@@ -1,24 +1,24 @@
 .contact-title {
-    grid-column: span 2;
+  grid-column: span 2;
   display: flex;
   width: 100%;
   justify-content: left;
   font-size: 2rem;
-
 }
 
 .contact-section {
-    margin-top: 10%;
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
+  margin-top: 10%;
+  padding: 0 10% 0 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.contact-section .contact-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 4.5%;
+.contact-section .contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 4.5%;
 }
 
 .contact-section .contact-left img {
@@ -27,28 +27,28 @@
 }
 
 .contact-section .contact-right {
-    margin-left: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(100px, auto));
-    align-content: center;
-    gap: 40px;
-    width: 66.66%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, auto));
+  align-content: center;
+  gap: 40px;
+  width: 66.66%;
 }
 
 .contact-input input,
 .contact-input select,
 .contact-text textarea {
-    padding: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
   border: 1px solid #ccc;
   width: 100%;
   border-radius: 5px;
   font-size: 1rem;
 }
 
-.contact-input label, .contact-text label{
-    color: #888888;
+.contact-input label,
+.contact-text label {
+  color: #888888;
 }
-
 
 .contact-text {
   grid-column: span 2;
@@ -61,31 +61,24 @@
   max-height: 150px;
 }
 
-
 .submit-button {
-    grid-column: span 1;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    text-align: center;
+  grid-column: span 1;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
 
-  }
-  
-  .submit-button:hover {
-    background-color: #333;
-  }
+.submit-button:hover {
+  background-color: #333;
+}
 
-
-  
-  @media screen and (max-width: 1320px) {
-
-
-    
-.contact-section .contact-right {
+@media screen and (max-width: 1320px) {
+  .contact-section .contact-right {
     margin-left: 20px;
     margin-right: 20px;
     display: grid;
@@ -93,5 +86,5 @@
     align-content: center;
     gap: 40px;
     width: 100%;
-}
   }
+}

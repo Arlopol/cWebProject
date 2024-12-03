@@ -1,0 +1,145 @@
+.about-section{
+    padding: 0 10% 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-section p{
+    opacity: .7;
+}
+
+.about-img img, .about-questions img{
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    border-radius: 40px;
+}
+
+
+.about-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    
+    gap: 50px;
+    width: 80%;
+}
+
+.about-title h1{
+    font-size: 3rem;
+}
+
+.about-author-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.vl {
+    border-left: 1px solid;
+    height: 25px;
+  }
+
+
+.about-main{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 8% 5%;
+    gap: 120px;
+}
+.about-questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 5% 0 5% 0;   
+}
+
+.about-questions .question p{
+    margin-top: 2rem;
+}
+
+.question img{
+    padding-top: 5%;
+}
+
+
+.about-questions .quote{
+    padding: 50px;
+    font-size: 2rem;
+    background-image: linear-gradient(
+        90deg,
+        hsl(0deg 0% 69%) 0%,
+        hsl(344deg 0% 72%) 8%,
+        hsl(344deg 0% 74%) 17%,
+        hsl(344deg 0% 77%) 25%,
+        hsl(344deg 0% 79%) 33%,
+        hsl(344deg 0% 82%) 42%,
+        hsl(344deg 0% 84%) 50%,
+        hsl(344deg 0% 87%) 58%,
+        hsl(344deg 0% 89%) 67%,
+        hsl(344deg 0% 92%) 75%,
+        hsl(344deg 0% 95%) 83%,
+        hsl(344deg 0% 97%) 92%,
+        hsl(0deg 0% 100%) 100%
+      );
+
+      border: 1px solid rgba(90, 90, 90, 0.3); 
+      border-right: 0px solid;
+      
+    }
+    
+    
+    .about-social{
+        padding: 5% 0 0;
+        text-align: center;
+    }
+    .about-social-img{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    
+        .subscription-section {
+            margin: 0px 200px;
+        }
+
+@media screen and (max-width: 1320px) {
+    .about-main {
+      flex-direction: column-reverse;
+      gap: 0px;
+    }
+
+    .about-social{
+      width: 100%;
+        
+    }
+    .about-social-img{
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 7%;
+    }
+
+    .about-section{
+        padding: 0;
+    }
+    .about-section img{
+        
+    padding-left: 0px;
+    padding-right: 0px;
+        border-radius: 0;
+    }
+
+    
+    .subscription-section {
+        max-width: 100%;
+        margin: 0px 0px;
+    }
+  }
+  

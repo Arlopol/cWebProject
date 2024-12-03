@@ -152,7 +152,7 @@ overflow: hidden;
   grid-area: categories;
 
   display: grid;
-  padding: 120px;
+  padding: 10%;
 }
 
 .Categories h2 {
@@ -163,7 +163,7 @@ overflow: hidden;
 .Categories .categories-images {
   padding-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 10px;
   text-align: center;
 }
@@ -177,6 +177,7 @@ overflow: hidden;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 0 10% 0 10%;
 }
 
 .view-categories {
@@ -304,7 +305,8 @@ overflow: hidden;
 }
 
 .social-posts {
-  margin-top: 4%;
+  padding: 10%;
+  padding-bottom: 5%;
   width: 100%;
   display: grid;
   justify-content: space-evenly;
@@ -334,6 +336,9 @@ overflow: hidden;
 
 .Quick-Recipes .recipe-grid {
   grid-template-columns: repeat(4, minmax(100px, auto));
+  padding-top: 0;
+  padding: 10%;
+  padding-bottom: 0;
 }
 
 .Quick-Recipes .Recipe-Title {
